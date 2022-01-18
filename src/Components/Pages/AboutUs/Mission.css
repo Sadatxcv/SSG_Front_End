@@ -1,0 +1,30 @@
+.mission-container h1{
+    text-align: center;
+  font-weight: bold;
+  margin: 0px 0 10px 0px;
+  color:rgb(61, 62, 63);
+}
+.mission-container {
+    margin: 55px 0px 50px 12px;
+}
+.missionVission{
+    /* background-color: rgb(50, 133, 189); */
+    border-radius: 5px;
+    margin: 60px 15px;
+}
+.sectionImg{
+    padding:30px;
+}
+.icon{
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+}
+.points{
+    padding: 20px;
+}
+.points p{
+    text-align: center;
+    margin-top: 15px;
+    color:black;
+}

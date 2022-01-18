@@ -1,0 +1,24 @@
+
+*{
+    font-family: Helvetica;
+}
+.policy-container{
+    box-sizing: border-box;
+    margin-top: 55px;
+    /* border: 1px solid black; */
+    background-color: #FFF;
+    /* box-shadow: 0 40px 40px 0 rgba(153, 153, 153, 0.25); */
+}
+.policy-container h3{
+    
+    font-weight: bold;
+    
+}
+.policy-container p{
+    font-size: 20px;
+    color: black;
+    padding: 0 12px;
+    margin-bottom: 30px;
+    text-align: justify;
+   
+}

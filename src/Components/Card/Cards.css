@@ -1,0 +1,42 @@
+.card-containter{
+  margin-bottom: 20px;
+}
+.cardText {
+  color: black;
+  text-align: left;
+}
+.cardImg {
+  height: 250px;
+  width: 100%;
+  transition: all 0.2s linear;
+  border-radius: 0px !important;
+  object-fit:cover;
+}
+.btn-primary{
+  background-color: var(--main-deepOrange);
+  border:0px;
+}
+.cardImg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  object-fit: cover; 
+  transition: all 0.2s linear;
+}
+.cardtitle {
+  font-weight: bold;
+  color: var(--main-deepOrange);
+}
+.actionCard{
+    /* margin:20px; */
+    align-content: center;
+}
+
+.actionCardtitle{
+    color:black;
+    font-weight: bold;
+}
+.card{
+  border-radius: 0px !important;
+  width: 100%;
+  display: inline-flex;
+}

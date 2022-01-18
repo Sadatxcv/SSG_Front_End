@@ -1,0 +1,28 @@
+.tuition-container h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 55px 0 10px 0px;
+    color: rgb(61, 62, 63);
+  }
+  .tuition-listImg {
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+    object-fit: cover;
+  }
+  .tuition-listPara {
+    margin-top: 20px;
+    color: black;
+    text-align: justify;
+  }
+  .tuition-container {
+    margi-topn-top: 0px 0px 50px 0;
+  }
+.HireTutorForm{
+  width: 37%;
+  margin: 100px auto;
+}
+.TutorRegForm{
+  width: 37%;
+  margin: 100px auto;
+}

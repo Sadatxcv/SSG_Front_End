@@ -1,0 +1,198 @@
+ @import url(https://use.fontawesome.com/releases/v5.15.4/css/all.css);
+.nav {
+  background-color: white;
+  padding: 0px !important;
+  
+}
+.headerIcons{
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+.headerIcons:hover{
+  transform: scale(1.3);
+}
+
+.marqueeContainer{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.socials{
+  padding: 0px !important;
+  position: relative;
+}
+.marque{
+  padding: 0px !important;
+}
+#head{
+  width: inherit;
+}
+#head a:hover{
+  color: var(--main-deepOrange);
+
+}
+.iconContainer{
+  display: inline-flex;
+}
+.iconContainer p{
+  margin-top: 6px;
+}
+.marquee{
+ margin-top: 5px;
+ 
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.phonicn{
+  color:var(--main-deepOrange);
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  transition: 0.2s ease;
+}
+#head .fa-phone-alt:hover{
+  transform: scale(1.3);
+  transition: 0.2s ease;
+}
+a{
+  text-decoration: none;  
+}
+.HeaderNo{
+  margin-top: 9px !important;
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  transition: 0.2s ease;
+  text-decoration: none;
+  color: white;
+}
+.HeaderNo:hover{
+  color: var(--main-deepOrange);
+}
+.fa-user-circle{
+  color:var(--main-deepOrange);
+  margin-top: 11px;
+  margin-bottom: 10px; 
+  font-size: 25px;
+  transition: 0.2s ease;
+}
+
+.loginicn{
+  width: fit-content;
+  padding: 0px;
+  margin-left: 20px;
+}
+.fa-angle-down{
+  margin-left: 5px;
+}
+.fa-plane{
+  margin: 0 15px;
+  color:var(--main-deepOrange);
+}
+.headerLink{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  margin-top: 9px !important;
+  margin-bottom: 0px !important;
+  width: fit-content;
+  transition: 0.2s ease;
+}
+.fa-user-circle:hover{
+  transform: scale(1.3);
+}
+
+.scrwaller {
+  background-color:#1D202C;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  
+  
+}
+.img-logo {
+  height: 55px;
+  width: auto;
+}
+.navItem {
+  text-decoration: none !important;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 97%;
+  left: 0;
+  margin-top: 0rem;
+}
+#navlink,
+#basic-nav-dropdown {
+  padding: 20px 5px;
+  color: black;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none !important;
+}
+#navlink:hover,
+#basic-nav-dropdown:hover {
+  color: white !important;
+  background-color: var(--main-deepBlue);
+}
+.nav-link::after {
+  /* border: none;
+  font-family: normal normal normal 12px/1 "Font Awesome 5 Free";
+  content: "\f337";
+  vertical-align: 0; */
+  vertical-align: 0.15em;
+}
+
+.dropdown-menu {
+  background-color: white;
+}
+
+.dropdownItem {
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+}
+.dropdown-item{
+  /* padding:0px !important; */
+}
+
+.dropdown-item:hover {
+  background-color: var(--main-deepBlue);
+}
+.highlightItem:hover {
+  color: white !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.logo {
+  font-weight: bold;
+  font-family: Comic Sans MS;
+}
+.login{
+  position: relative;
+  left:10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #navlink,
+  #basic-nav-dropdown {
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none !important;
+  }
+  .login{
+    
+    left:0px;
+  }
+}

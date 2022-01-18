@@ -1,0 +1,9 @@
+.blog-container h1{
+    text-align: center;
+    font-weight: bold;
+    margin: 55px 0 0 0px;
+    color:rgb(61, 62, 63);
+}
+.BlogItems{
+    margin-top: 20px;
+}
